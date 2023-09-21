@@ -1,5 +1,6 @@
 //Ejercicio 1 - Práctica 1 - Arquitectura y Programación de Sistemas en Internet
 //Jesús Cuesta Bartolomé
+//Hacer una función recursiva que tenga un parámetro de entrada que sea un array y en el cual se implemente un algoritmo de ordenación QuickSort.
 
 // Función quicksort que sirve para ordenar un array de números de menor a mayor
 function quicksort(array: number[]): number[] {
