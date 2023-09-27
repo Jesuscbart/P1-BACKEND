@@ -15,7 +15,7 @@ function multipl3_5(numero: number): number[] {
     return multiplos; // Devolvemos el array con los múltiplos encontrados.
   }
   // Ejemplo
-  const num = 20; // Definimos un número hasta donde encontrar los múltiplos
+  const num = 10; // Definimos un número hasta donde encontrar los múltiplos
   const resultado = multipl3_5(num); // Llamamos a la función con nuestro número
   console.log(resultado); // Imprimimos el resultado 
   

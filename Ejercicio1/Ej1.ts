@@ -9,8 +9,7 @@ function quicksort(array: number[]): number[] {
     return array;
   }
 
-  // Seleccionamos el primer elemento del array como pivote
-  const pivot = array[0];
+  const pivot = array[0]; // Seleccionamos el primer elemento del array como pivote
 
   // Creamos dos arrays vacíos para almacenar los elementos menores y mayores que el pivote
   const left = [];
@@ -28,12 +27,8 @@ function quicksort(array: number[]): number[] {
   // Llamamos recursivamente a quicksort en los arrays "left" y "right" y unimos los resultados
   return quicksort(left).concat(pivot, quicksort(right));
 }
-
 // Ejemplo:
 const array = [12, 2, 9, 1, 7, 5];
 
-// Llamamos a la función quicksort para ordenar el array
-const sortedArray = quicksort(array);
-
-// Imprimimos el array ordenado en la consola
-console.log(sortedArray);
+const sortedArray = quicksort(array); // Llamamos a la función quicksort para ordenar el array
+console.log(sortedArray); // Imprimimos el array ordenado en la consola

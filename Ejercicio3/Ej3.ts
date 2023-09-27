@@ -18,4 +18,3 @@ function ordenarYSeparar(arrayDeStrings: string[]): string {    // Función que 
   console.log(resultado); // Imprimimos
   
 
-
