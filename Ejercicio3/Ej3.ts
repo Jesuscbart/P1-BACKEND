@@ -13,7 +13,7 @@ function ordenarYSeparar(arrayDeStrings: string[]): string {    // Función que 
     return letrasSeparadas; // Devolvemos el resultado
   }
   // Ejemplo
-  const miArray = ['perro', 'oso', 'leon', 'tigre', 'panda']; // Definimos el array de strings
+  const miArray = ['perro', 'oso', 'leon', 'tigre', 'cabra']; // Definimos el array de strings
   const resultado = ordenarYSeparar(miArray); // Llamamos a la función
   console.log(resultado); // Imprimimos
   
